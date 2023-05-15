@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using CommandAPI.Data;
+using CommandAPI.Models;
 
 namespace CommandAPI.Controllers
 {
@@ -12,10 +14,21 @@ namespace CommandAPI.Controllers
     [ApiController]
     public class CommandsController : ControllerBase
     {
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        private readonly ICommandAPIRepo _repository;
+        public CommandsController(ICommandAPIRepo repository)
         {
-            return new string[] {"This","is","hard","coded"};
+            _repository=repository;
+        }
+        // [HttpGet]
+        // public ActionResult<IEnumerable<string>> Get()
+        // {
+        //     return new string[] {"This","is","hard","coded"};
+        // }
+
+        public ActionResult<IEnumerable<Command>> GetAllCommands()
+        {
+            var commandItems=_repository.GetAllCommands();
+            return Ok(commandItems);
         }
     }
 }

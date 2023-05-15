@@ -1,3 +1,4 @@
+using CommandAPI.Data;
 namespace CommandAPI
 {
     internal class Program
@@ -7,6 +8,8 @@ namespace CommandAPI
             var builder = WebApplication.CreateBuilder(args);
             //Register services to enable the use of controllers throughout our application
             builder.Services.AddControllers();
+            //DI
+            builder.Services.AddScoped<ICommandAPIRepo, MockCommandAPIRepo>();
 
             var app = builder.Build();
             if (app.Environment.IsDevelopment())

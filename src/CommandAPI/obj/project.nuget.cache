@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6WFYkojvSo+P5xdziV49bRCoZL6P1ZNbbXBMIZ6vUa9MLj/EIAdOfCxYTKzGlUQSGaftMEk64E9vZWd7R8vdsA==",
+  "dgSpecHash": "Q7Xow18oQLaZfiCcQD9uwvxNaiH3Wd1YBYvtNleYkkIu2uudajPqrSn61qV4BswFoPfKcZW3BnnaGiaVPkjQww==",
   "success": true,
-  "projectFilePath": "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj",
+  "projectFilePath": "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

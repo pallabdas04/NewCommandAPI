@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj": {}
+    "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {}
   },
   "projects": {
-    "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj": {
+    "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj",
+        "projectUniqueName": "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
         "projectName": "CommandAPI",
-        "projectPath": "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj",
+        "projectPath": "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
         "packagesPath": "C:\\Users\\palla\\.nuget\\packages\\",
-        "outputPath": "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\commandapi\\obj\\",
+        "outputPath": "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\CommandAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\palla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     }
