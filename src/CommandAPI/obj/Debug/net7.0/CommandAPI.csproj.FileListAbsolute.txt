@@ -24,3 +24,14 @@ C:\PALLAB-DATA\Projects\CommandAPISolution\src\CommandAPI\obj\Debug\net7.0\refin
 C:\PALLAB-DATA\Projects\CommandAPISolution\src\CommandAPI\obj\Debug\net7.0\CommandAPI.pdb
 C:\PALLAB-DATA\Projects\CommandAPISolution\src\CommandAPI\obj\Debug\net7.0\CommandAPI.genruntimeconfig.cache
 C:\PALLAB-DATA\Projects\CommandAPISolution\src\CommandAPI\obj\Debug\net7.0\ref\CommandAPI.dll
+C:\PALLAB-DATA\Projects\CommandAPISolution\src\commandapi\bin\Debug\net7.0\Humanizer.dll
+C:\PALLAB-DATA\Projects\CommandAPISolution\src\commandapi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\PALLAB-DATA\Projects\CommandAPISolution\src\commandapi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\PALLAB-DATA\Projects\CommandAPISolution\src\commandapi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\PALLAB-DATA\Projects\CommandAPISolution\src\commandapi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\PALLAB-DATA\Projects\CommandAPISolution\src\commandapi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\PALLAB-DATA\Projects\CommandAPISolution\src\commandapi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\PALLAB-DATA\Projects\CommandAPISolution\src\commandapi\bin\Debug\net7.0\Npgsql.dll
+C:\PALLAB-DATA\Projects\CommandAPISolution\src\commandapi\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\PALLAB-DATA\Projects\CommandAPISolution\src\commandapi\bin\Debug\net7.0\System.CodeDom.dll
+C:\PALLAB-DATA\Projects\CommandAPISolution\src\commandapi\obj\Debug\net7.0\CommandAPI.csproj.CopyComplete

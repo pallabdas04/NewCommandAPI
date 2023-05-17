@@ -24,11 +24,21 @@ namespace CommandAPI.Controllers
         // {
         //     return new string[] {"This","is","hard","coded"};
         // }
-
+        [HttpGet]
         public ActionResult<IEnumerable<Command>> GetAllCommands()
         {
             var commandItems=_repository.GetAllCommands();
             return Ok(commandItems);
+        }
+        [HttpGet("{id}")]
+        public ActionResult<IEnumerable<Command>> GetCommandById(int id)
+        {
+            var commandItem=_repository.GetCommandById(id);
+            if (ReferenceEquals(commandItem, null))
+            {
+                return NotFound();
+            }
+            return Ok(commandItem);
         }
     }
 }

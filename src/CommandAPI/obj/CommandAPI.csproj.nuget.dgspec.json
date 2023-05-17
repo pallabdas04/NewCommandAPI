@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {}
+    "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj": {}
   },
   "projects": {
-    "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
+    "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+        "projectUniqueName": "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj",
         "projectName": "CommandAPI",
-        "projectPath": "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+        "projectPath": "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj",
         "packagesPath": "C:\\Users\\palla\\.nuget\\packages\\",
-        "outputPath": "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\CommandAPI\\obj\\",
+        "outputPath": "C:\\PALLAB-DATA\\Projects\\CommandAPISolution\\src\\commandapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\palla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,22 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

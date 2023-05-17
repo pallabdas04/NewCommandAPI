@@ -43,7 +43,12 @@ namespace CommandAPI.Data
 
         public Command GetCommandById(int Id)
         {
-            throw new NotImplementedException();
+            var command=new Command {
+                Id=0, HowTo="How to generate a migration",
+                    CommandLine = "dotnet ef migrations add <Name of Migration>",
+                    Platform=".Net Core EF"
+            };
+            return command;
         }
 
         public bool SaveChanges()
